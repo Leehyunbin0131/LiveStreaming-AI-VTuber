@@ -183,3 +183,9 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 
 ## 📞 문의
 궁금한 점이나 개선 사항이 있다면 이슈를 남겨주세요! 😊
+
+leehyunbin0131@gmail.com
+
+Discord : leehyunbin
+
+
