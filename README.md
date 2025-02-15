@@ -19,7 +19,7 @@ Ollama 기반 AI와 GPT-SoVITS TTS를 활용한 **스트리밍 및 VTubeStudio �
 CUDA 12.3
 PyTorch 2.2.0 cuda121
 Python 3.9+
-Ollama benedict/linkbricks-llama3.1-korean:8b
+Ollama 
 ```
 
 ---
