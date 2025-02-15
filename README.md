@@ -18,29 +18,9 @@ Ollama benedict/linkbricks-llama3.1-korean:8b
 
 ## 📥 모델 다운로드 및 설정
 
-### 1️⃣ Ollama 모델 다운로드
-Ollama에서 사용할 모델을 다운로드한 후, `DEMO_test.py` 파일의 **Ollama 모델이름**을 다운로드한 모델의 이름으로 변경합니다. 모델 이름은 아래 명령어로 확인할 수 있습니다.
-```bash
-ollama list
-```
+### 1️⃣ GPT-SoVITS 다운로드
+[GPT-SoVITS-v2 다운로드](https://github.com/RVC-Boss/GPT-SoVITS/releases/tag/20240821v2)
 
-**예제 코드 (`DEMO_test.py` 수정 부분)**
-```python
-class OllamaChat:
-    def __init__(self, model: str = "Ollama 모델이름") -> None:
-        self.model = model
-        self.system_message = {
-            'role': 'system',
-            'content': (
-                "당신은 인터넷 AI 방송 크리에이터입니다. "
-                "Ollama 기반의 인공지능 AI이며, 시청자들과 소통하는 것을 즐기고 털털한 성격을 가졌습니다. "
-                "존댓말을 사용하지 말고, 대화는 짧고 간결하게 하며, 정확한 정보를 전달하세요."
-            )
-        }
-        self.conversation_history = []
-```
-
-### 2️⃣ GPT-SoVITS 세팅
 GPT-SoVITS-v2를 다운로드한 후, GPT 모델과 SoVITS를 학습하여 TTS 모델을 생성합니다.
 
 `GPT-SoVITS-v2/configs/tts_infer.yaml` 파일을 수정합니다.
@@ -77,6 +57,40 @@ default_v2:
 
 ---
 
+### 2️⃣ Ollama 모델 다운로드 및 설정
+
+#### **Ollama 모델 다운로드**
+1. `DEMO_test.py`에서 **Ollama 모델이름**을 다운로드한 모델의 이름으로 변경합니다.
+2. 모델 이름은 아래 명령어로 확인할 수 있습니다.
+```bash
+ollama list
+```
+
+**예제 코드 (`DEMO_test.py` 수정 부분)**
+```python
+class OllamaChat:
+    def __init__(self, model: str = "Ollama 모델이름") -> None:
+        self.model = model
+        self.system_message = {
+            'role': 'system',
+            'content': (
+                "당신은 인터넷 AI 방송 크리에이터입니다. "
+                "Ollama 기반의 인공지능 AI이며, 시청자들과 소통하는 것을 즐기고 털털한 성격을 가졌습니다. "
+                "존댓말을 사용하지 말고, 대화는 짧고 간결하게 하며, 정확한 정보를 전달하세요."
+            )
+        }
+        self.conversation_history = []
+```
+
+#### **참조 오디오 세팅**
+```python
+DEFAULT_REF_AUDIO = r"C:\Users\unit6\Documents\Test\My_tts\My_BaseTTS_v2.wav"  # 참조 오디오 경로
+DEFAULT_PROMPT_TEXT = ""  # 참조 텍스트 (한국어는 빈칸으로)
+DEFAULT_PROMPT_LANG = "ko"  # 참조 언어 설정
+```
+
+---
+
 ## 🎥 VTubeStudio 설정
 VTubeStudio 설정에서 **VTubeStudio API 시작 옵션을 ON**으로 활성화합니다.
 
@@ -104,7 +118,7 @@ VTubeStudio 실행 후 **권한 요청을 허용**합니다.
 만약 **VTubeStudio 모델이 움직이지 않는다면**, `DEMO_vts_api_helper.py`의 `param_id`가 실제 ID와 일치하는지 확인하세요.
 
 ```python
-def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_id: str = "MouthOpen"):  # param_id: str = "MouthOpen"의 실제 ID 확인
+def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_id: str = "MouthOpen"):  # 실제 ID 확인
     if not self.authenticated:
         return
     mouth_value = max(0.0, min(1.0, mouth_value))
@@ -124,6 +138,13 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
     }
     self.send_message(payload)
 ```
+
+---
+
+## 🔗 참고 자료
+- [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT)
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+- [VTubeStudio](https://github.com/DenchiSoft/VTubeStudio)
 
 ---
 
