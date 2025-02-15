@@ -4,6 +4,9 @@
 
 Ollama 기반 AI와 GPT-SoVITS TTS,RealtimeSTT를 활용한 **스트리밍 및 VTubeStudio 연동 음성 AI버튜버 시스템**
 
+> ⚠️ **이 코드는 데모 버전으로 여러 문제가 있을 수 있습니다.**
+> **계속 업데이트 중이므로 최신 버전을 유지해주세요.**
+
 ---
 
 <p>
@@ -122,6 +125,9 @@ python DEMO_test.py
 
 ### 4️⃣ **VTubeStudio**
 VTubeStudio 화면의 **권한 요청을 허용**합니다.
+
+## 📹 영상
+[![데모 영상](https://img.youtube.com/vi/8nUFG9fRaUs/0.jpg)](https://youtu.be/8nUFG9fRaUs)
 
 ---
 
