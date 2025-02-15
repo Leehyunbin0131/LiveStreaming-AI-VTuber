@@ -175,7 +175,7 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 ## 📞 문의
 궁금한 점이나 개선 사항이 있다면 이슈를 남겨주세요! 😊
 
-## 모든 기여자들에게 감사드립니다 ;)
+## 모든 기여자들에게 감사드립니다 :3
 
 <a href="https://github.com/Leehyunbin0131/LiveStreaming-AI-VTuber/graphs/contributors" target="_blank">
   <img src="https://contrib.rocks/image?repo=Leehyunbin0131/LiveStreaming-AI-VTuber" />
