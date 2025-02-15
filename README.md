@@ -6,6 +6,14 @@ Ollama 기반 AI와 GPT-SoVITS TTS를 활용한 **스트리밍 및 VTubeStudio �
 
 ---
 
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+</p>
+
+
 ## 🖥️ 환경 요구 사항
 ```
 CUDA 12.3
