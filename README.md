@@ -77,8 +77,9 @@ default_v2:
 ---
 
 ### 2️⃣ Ollama 모델 다운로드 및 설정
-
+[Ollama 다운로드](https://ollama.com/download)
 #### **Ollama 모델 다운로드**
+[Ollama Models 다운로드](https://ollama.com/search)
 1. `DEMO_test.py`에서 **Ollama 모델이름**을 다운로드한 모델의 이름으로 변경합니다.
 2. 모델 이름은 아래 명령어로 확인할 수 있습니다.
 ```bash
