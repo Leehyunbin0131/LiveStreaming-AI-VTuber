@@ -126,8 +126,7 @@ python DEMO_test.py
 ### 4️⃣ **VTubeStudio**
 VTubeStudio 화면의 **권한 요청을 허용**합니다.
 
-## 📹 영상
-https://www.youtube.com/watch?v=8nUFG9fRaUs
+## 📹 영상 https://www.youtube.com/watch?v=8nUFG9fRaUs
 [![데모 영상](https://img.youtube.com/vi/8nUFG9fRaUs/0.jpg)](https://youtu.be/8nUFG9fRaUs)
 
 ---
