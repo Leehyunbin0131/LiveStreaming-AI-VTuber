@@ -42,7 +42,8 @@ Ollama
 
 GPT-SoVITS-v2를 다운로드한 후, GPT 모델과 SoVITS를 학습하여 TTS 모델을 생성합니다.
 
-`GPT-SoVITS-v2/configs/tts_infer.yaml` 파일을 수정합니다.
+`GPT-SoVITS-v2/configs/tts_infer.yaml` 파일을 수정합니다. 
+t2s_weights_path,vits_weights_path 경로를 학습된 사용자의 모델로 변경합니다.
 
 #### ✅ CUDA를 사용하는 경우
 ```yaml
