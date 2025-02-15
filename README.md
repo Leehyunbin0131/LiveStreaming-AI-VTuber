@@ -106,8 +106,8 @@ VTubeStudio 설정에서 **VTubeStudio API 시작 옵션을 ON**으로 활성화
 
 ## 🚀 실행 방법
 
-### 1️⃣ **VTubeStudio 연동**
-VTubeStudio 실행 후 **권한 요청을 허용**합니다.
+### 1️⃣ **VTubeStudio**
+VTubeStudio 실행.
 
 ### 2️⃣ **GPT-SoVITS API 실행**
 ```bash
@@ -119,6 +119,9 @@ python api_v2.py -a 127.0.0.1 -p 9880 -c GPT_SoVITS/configs/tts_infer.yaml
 ```bash
 python DEMO_test.py
 ```
+
+### 4️⃣ **VTubeStudio**
+VTubeStudio 화면의 **권한 요청을 허용**합니다.
 
 ---
 
