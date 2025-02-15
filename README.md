@@ -7,7 +7,11 @@ Ollama 기반 AI와 GPT-SoVITS TTS,RealtimeSTT를 활용한 **스트리밍 및 V
 > ⚠️ **이 코드는 데모 버전으로 여러 문제가 있을 수 있습니다.**
 > **계속 업데이트 중이므로 최신 버전을 유지해주세요.**
 
-https://github.com/Leehyunbin0131
+## 모든 기여자들에게 감사드립니다 :3
+
+<a href="https://github.com/Leehyunbin0131/LiveStreaming-AI-VTuber/graphs/contributors" target="_blank">
+  <img src="https://contrib.rocks/image?repo=Leehyunbin0131/LiveStreaming-AI-VTuber" />
+</a>
 
 ---
 
@@ -174,9 +178,3 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 
 ## 📞 문의
 궁금한 점이나 개선 사항이 있다면 이슈를 남겨주세요! 😊
-
-## 모든 기여자들에게 감사드립니다 :3
-
-<a href="https://github.com/Leehyunbin0131/LiveStreaming-AI-VTuber/graphs/contributors" target="_blank">
-  <img src="https://contrib.rocks/image?repo=Leehyunbin0131/LiveStreaming-AI-VTuber" />
-</a>
