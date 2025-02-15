@@ -2,7 +2,7 @@
 
 🎤 **Live Streaming AI VTuber**: 실시간 AI 대화 + TTS 음성 합성 + VTubeStudio 연동
 
-Ollama 기반 AI와 GPT-SoVITS TTS를 활용한 **스트리밍 및 VTubeStudio 연동 음성 AI버튜버 시스템**
+Ollama 기반 AI와 GPT-SoVITS TTS,RealtimeSTT를 활용한 **스트리밍 및 VTubeStudio 연동 음성 AI버튜버 시스템**
 
 ---
 
