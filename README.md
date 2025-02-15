@@ -177,6 +177,6 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 
 ## 모든 기여자들에게 감사드립니다 ;)
 
-<a href="https://github.com/RVC-Boss/GPT-SoVITS/graphs/contributors" target="_blank">
-  <img src="https://contrib.rocks/image?repo=RVC-Boss/GPT-SoVITS" />
+<a href="https://github.com/Leehyunbin0131/LiveStreaming-AI-VTuber/graphs/contributors" target="_blank">
+  <img src="https://contrib.rocks/image?repo=Leehyunbin0131/LiveStreaming-AI-VTuber" />
 </a>
