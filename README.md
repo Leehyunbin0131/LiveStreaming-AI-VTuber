@@ -173,10 +173,10 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 
 1. 모델 테스트
 
-	•	Bllossom/llama-3.2-Korean-Bllossom-AICA-5B 모델 테스트
+	•	exaon3.5 7.8B 모델 테스트
 
 2. 모델 파인튜닝
-	•	Bllossom/llama-3.2-Korean-Bllossom-AICA-5B 모델 파인튜닝 진행
+	•	exaone3.5 7.8B 모델 파인튜닝 진행
 
 3. 실시간 음성 변환(STT) 변경 및 테스트
 	•	RealtimeSTT를 whisper-large-v3-turbo로 변경
