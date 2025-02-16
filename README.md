@@ -171,19 +171,11 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 
 ## 작업 예정
 
-1. 모델 테스트
-
-	•	exaon3.5 7.8B Q8_0 모델 테스트
-
-2. 모델 파인튜닝
-
-	•	exaone3.5 모델 파인튜닝 진행
-
-3. 실시간 음성 변환(STT) 변경 및 테스트
+1. 실시간 음성 변환(STT) 변경 및 테스트
 	•	RealtimeSTT를 whisper-large-v3-turbo로 변경
 	•	변경 후 정상 작동 여부 및 성능 테스트
 
-4. 채팅 API 연결
+2. 채팅 API 연결
 	•	채팅 API 연결 작업 수행
 
 ---
