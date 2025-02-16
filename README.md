@@ -176,6 +176,7 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 	•	exaon3.5 7.8B Q8_0 모델 테스트
 
 2. 모델 파인튜닝
+
 	•	exaone3.5 모델 파인튜닝 진행
 
 3. 실시간 음성 변환(STT) 변경 및 테스트
