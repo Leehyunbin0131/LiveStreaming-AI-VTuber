@@ -171,12 +171,11 @@ def inject_mouth_value(self, mouth_value: float, face_found: bool = True, param_
 
 ## 작업 예정
 
-1. 실시간 음성 변환(STT) 변경 및 테스트
-	•	RealtimeSTT를 whisper-large-v3-turbo로 변경
-	•	변경 후 정상 작동 여부 및 성능 테스트
-
-2. 채팅 API 연결
-	•	채팅 API 연결 작업 수행
+-채팅 API 연결 작업 수행
+-LLM 활용 발화자 구분 알고리즘 적용
+-파이프라인 최적화,레이턴시 최소화
+-WAV파일을 청크 단위로 스트리밍 받아 실시간 재생
+-제3자와의 대화 흐름 기억
 
 ---
 
